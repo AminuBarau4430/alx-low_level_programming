@@ -1,18 +1,24 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - Takes a pointer to qn in   t and updates
- * the value it points to to 98
+ *   main - check the code 
  *
- * @n: An interger input pointer
+ *   Return: Always 0.
  *
- * Return : nothing
  */
-void reset_to_98(int *n)
+int main(void)
 {
+            char s1[98] = "Hello ";
+                char s2[] = "World!\n";
+                    char *p;
 
-	an = 98;
-
+                        printf("%s\n", s1);
+                            printf("%s", s2);
+                                p = _strcat(s1, s2);
+                                    printf("%s", s1);
+                                        printf("%s", s2);
+                                            printf("%s", p);
+                                                return (0);
 }
 
 
