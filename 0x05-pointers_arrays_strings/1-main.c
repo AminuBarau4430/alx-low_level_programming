@@ -3,12 +3,14 @@
 
 /** 
  * *main - check the code
- * *
- *  * Return: Always 0.
- *   */
+ * 
+ *   *
+ *    * Return: Always 0.
+ *     */
 int main(void)
 {
-            int a;
+   
+	    int a;
             int b;
 
                    a = 98;
@@ -17,5 +19,8 @@ int main(void)
                    swap_int(&a, &b);
                    printf("a=%d, b=%d\n", a, b);
                    return (0);
+
+
+
 
 }
