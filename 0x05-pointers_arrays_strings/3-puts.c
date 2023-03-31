@@ -1,17 +1,13 @@
-include "main.h"
 
-/** 
- * _puts - prints a string
+include "main.h"                                                                        /**
+ * _put -prints a string
  * @str: The string to print
  * Return: void
  */
-
-void _puts(char *str)
-
-{
-	for (;*str != '\0'; str++)
-	{
-	_putchar(*str);
-	}
-	_putchar('\n');
+                                            void _puts(char *str)
+{                                                   for (; *str != '\0'; str++)
+        {
+        _putchar(*str);
+        }
+        _putchar('\n');
 }
